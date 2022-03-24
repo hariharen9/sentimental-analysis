@@ -1,8 +1,8 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from scipy.special import softmax
 
-# tweet = "@MehranShakarami today's cold @ home 😒 https://mehranshakarami.com"
-tweet = 'trash content! unsubscribed 😉'
+
+tweet = 'dont sell the sbi stocks. it may increase..'
 
 # preprocess tweet
 tweet_words = []

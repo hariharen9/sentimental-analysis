@@ -19,8 +19,8 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 # search tweets
-keywords = '#tcs'
-limit=300
+keywords = 'today stock market'
+limit=50
 
 tweets = tweepy.Cursor(api.search_tweets, q=keywords, count=100, tweet_mode='extended').items(limit)
 
